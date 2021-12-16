@@ -1,0 +1,48 @@
+body{
+    background-image: url("../assets/Object.png");
+    background-repeat: no-repeat; 
+    background-size:cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    
+}
+
+.container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;  
+    color: #ffffff
+}
+
+.container__links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.container ul {
+    display: flex;
+    list-style-type: none;
+}
+.container li {
+    padding: 20px;
+}
+
+.container__btn{
+    display: flex;  
+}
+
+.container__btn button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    width: 120px;
+    height: 40px;
+    background: #FFAC12;
+    border-radius: 0px 18px 0px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.
