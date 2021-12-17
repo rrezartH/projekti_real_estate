@@ -1,3 +1,6 @@
+*{
+    scroll-behavior:smooth;
+}
 body{
     color: #161616;
     padding: 0;
@@ -98,6 +101,7 @@ h1{
     justify-content: flex-start;
     align-items: center;
     background-color: #ffffff;
+    cursor: pointer;
 }
 
 .listings-tab p {
@@ -204,6 +208,7 @@ h1{
 
 .section-3__search {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center ;
     padding-top: 10%;
     
@@ -211,35 +216,36 @@ h1{
 
 .select-wrap {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    padding: 2px;
+    padding: 1px;
 }
   .select-wrap label{
       text-transform: uppercase;
       font-size: 2rem;
-      padding-bottom: 30px;
+      margin: 30px;
         
 }
   
 select{
     display: flex;
+    width: 500px;
     text-align: center;
     align-items: center;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 1.5rem;
     color: white;
-    min-width: 500px;
-    width: max-content;
     height: 120px;
-    background: #161616;
+    background: #FFAC12;
     border: none;
     cursor: pointer;
     align-items: left;
     -moz-appearance:none; /* Firefox */
     -webkit-appearance:none; /* Safari and Chrome */
     appearance:none;
+    
 }
 
 .select-looking-for{
@@ -247,4 +253,81 @@ select{
 }
 .select-price{
     border-radius: 0px 18px 18px 0px;
+}
+
+.section-3__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 100px;
+}
+
+.section-3__button-card{
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    margin-bottom: 100px;
+    width: fit-content;
+    align-items: center;
+    box-shadow: rgba(18, 17, 26, 0.151) 0px 48px 80px 0px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.button-card__title{
+    padding: 10px;
+
+}
+.button-card__title p{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.button-card__properties{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.button-card__properties-bed{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 33%;
+    border: #e0e0e0;
+    border-width: 0.1px;
+    border-style: solid;
+    padding: 10px;
+    margin: -1px;
+}
+.button-card__properties-shower{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 33%;
+    border: #e0e0e0;
+    border-width: 0.1px;
+    border-style: solid;
+    padding: 10px;
+    margin: -1px;
+}
+.button-card__properties-size{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 33%;
+    border: #e0e0e0;
+    border-width: 0.1px;
+    border-style: solid;
+    padding: 10px;
+    margin: -1px;
 }
