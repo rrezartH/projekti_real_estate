@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,10 +14,9 @@
     <title> Luan The Broker</title>
 </head>
 
-<body>
+<div>
 
-    <div class="section-1">
-   
+    <header>
         <nav class="container">       
             <img src="assets/Logo RealEstate.svg" alt="Logo" class="container__logo">            
         
@@ -28,235 +28,247 @@
                     <li>Rreth Nesh</li>
                 </ul>
                 <div class="container__btn">
-                    <button> Llogarija <img src="assets/Arrow White.svg" color alt=""></button>
+                    <button> Llogaria <img src="assets/Arrow White.svg" color alt=""></button>
                 </div>
             </div>  
         </nav>
+    </header>
 
-        <div class="headline">
-            <div class="headline__title">
-                <p class="headline__title-header">Shtepia te krijuara vetem per ju</p>
-                <p class="headline__title-body">Zbuloni vendin ne te cilini keni enderruar per te jetuar </p>
-            </div>
+    
 
-            <div class="listings-tab">  
-                <p>Shfletoni shpalljet</p>
-                <img src="assets/Arrow Tellow.svg" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div class="section-2">
-
-        <div class="section-2__image">
-            <img src="assets/Content Image large.png" alt="Content Image Large">
-        </div>
-
-        <div class="section-2__headline">
-            <img src="/assets/gradient line.png" alt="" class="section-2__gradient-line">
-            <p class="section-2__headline__title-header">Ne ju mundesojme kalim te lehte ne fazen e re te jetes</p>
-            <p class="section-2__headline__title-body">Faqja jone eshte nje pasyqrim i besimit tone ne sherbimin ndaj klientti dhe ofrimin e nje eksperience te jashtezakonshme te pasurive te patundshme. Ajo qe ben kompanine tone zgjedhjen e preferuar per te gjithe eshte angazhimi i stafit tone teper-inovativ, i cili i siguron cdo klienti zgjidhje te leverdisshme ne cdo fushe te biznesit te pasurive te patundshme.  </p>
-           
-            <div class="section-2__headline-btn">
-                <button> Sherbimet <img src="/assets/Arrow Tellow.svg" color alt=""></button>
-            </div>
-        </div>  
-    </div>
-
-    <div class="section-3">
-        <div class= "section-3__body">
-            <img src="/assets/gradient line.png" alt="" class="section-3__gradient-line">
-            <h1>Gjeni nje vend te ri per te jetuar</h1>
-
-            <div class="section-3__search"> 
-                    <div class="select-wrap">
-                        <label for="looking-for">Kerko</label>
-                        <select name="looking-for" id="looking-for" class="select-looking-for">
-                            <option value="House">Shtepi</option>
-                            <option value="Flat">Apartament</option>
-                            <option value="Vila">Vile</option>
-                            <option value="Penthouse">Hotel</option>
-                        </select>
-                    </div> 
-
-                    <div class="select-wrap">
-                        <label for="location">Lokacioni</label>
-                        <select name="location" id="location" class="select-location">
-                            <option value="Prishtina">Prishtina</option>
-                            <option value="Gjilani">Gjilani</option>
-                            <option value="Prizren">Prizren</option>
-                            <option value="Mitrovicë">Mitrovicë</option>
-                            <option value="Gjakovë">Gjakovë</option>
-                            <option value="Pejë">Pejë</option>
-                            <option value="Suharekë">Suharekë</option>
-                            <option value="Ferizaj">Ferizaj</option>
-                            <option value="Deçan">Deçan</option>
-                            <option value="Vitina">Vitina</option>
-                            <option value="Istok">Istok</option>
-                            <option value="Shtime">Shtime</option>
-                            <option value="Podujeva">Podujeva</option>
-                            <option value="Dragash">Dragash</option>
-                            <option value="Vushtrri">Vushtrri</option>
-                            <option value="Orahovac">Orahovac</option>
-                            <option value="Llazicë">Llazicë</option>
-                            <option value="Leposaviq">Leposaviq</option>
-                            <option value="fusheKosove">Fushë Kosovë</option> 
-                        </select>
-                    </div> 
-
-                    <div class="select-wrap">
-                        <label for="price-range">Rangu i qmimit</label>
-                        <select name="price-range" id="price-range" class="select-price">
-                            <option value="1,000$ - 9,999">1,000€ - 9,999€</option>
-                            <option value="10,000$ - 19,999$">10,000€ - 19,999€</option>
-                            <option value="20,000$ - 49,999$">20,000€ - 49,999€</option>
-                            <option value="20,000$ - 49,999$">20,000€ - 49,999€</option>
-                            <option value="50,000$ or more.">50,000€ ose me shume.</option>
-                        </select>
-                    </div> 
-            </div>
-            <div class="section-3__card">
-
-                <div class="section-3__button-card">
-                    <div class="button-card__img">
-                        <img src="assets/House Example 1.png" alt="">
-                    </div>
-                    <div class="button-card__title">
-                        <p>Vile</p>
-                    </div>
-                    <div class="button-card__properties">
-                        <div class="button-card__properties-bed">
-                            <img src="assets/Bed.svg" alt="bed">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-shower">
-                            <img src="assets/Shower.svg" alt="shower">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-size">
-                            <img src="assets/Size.svg" alt="size">
-                            <p>4</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="section-3__button-card">
-                    <div class="button-card__img">
-                        <img src="assets/House Example 2.png" alt="">
-                    </div>
-                    <div class="button-card__title">
-                        <p>Apartament</p>
-                    </div>
-                    <div class="button-card__properties">
-                        <div class="button-card__properties-bed">
-                            <img src="assets/Bed.svg" alt="bed">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-shower">
-                            <img src="assets/Shower.svg" alt="shower">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-size">
-                            <img src="assets/Size.svg" alt="size">
-                            <p>4</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="section-3__button-card">
-                    <div class="button-card__img">
-                        <img src="assets/House Example 3.png" alt="">
-                    </div>
-                    <div class="button-card__title">
-                        <p>Shtepi private</p>
-                    </div>
-                    <div class="button-card__properties">
-                        <div class="button-card__properties-bed">
-                            <img src="assets/Bed.svg" alt="bed">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-shower">
-                            <img src="assets/Shower.svg" alt="shower">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-size">
-                            <img src="assets/Size.svg" alt="size">
-                            <p>4</p>
-                        </div>
-                    </div>
+    <section class="section-1">
+        <div class="container">    
+            <div class="headline">
+                <div class="headline__title">
+                    <p class="headline__title-header">Shtepia te krijuara vetem per ju</p>
+                    <p class="headline__title-body">Zbuloni vendin ne te cilini keni enderruar per te jetuar </p>
                 </div>
 
-                <div class="section-3__button-card">
-                    <div class="button-card__img">
-                        <img src="assets/House Example 4.png" alt="">
-                    </div>
-                    <div class="button-card__title">
-                        <p>Hotel</p>
-                    </div>
-                    <div class="button-card__properties">
-                        <div class="button-card__properties-bed">
-                            <img src="assets/Bed.svg" alt="bed">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-shower">
-                            <img src="assets/Shower.svg" alt="shower">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-size">
-                            <img src="assets/Size.svg" alt="size">
-                            <p>4</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="section-3__button-card">
-                    <div class="button-card__img">
-                        <img src="assets/House Example 5.png" alt="">
-                    </div>
-                    <div class="button-card__title">
-                        <p>Apartament</p>
-                    </div>
-                    <div class="button-card__properties">
-                        <div class="button-card__properties-bed">
-                            <img src="assets/Bed.svg" alt="bed">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-shower">
-                            <img src="assets/Shower.svg" alt="shower">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-size">
-                            <img src="assets/Size.svg" alt="size">
-                            <p>4</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="section-3__button-card">
-                    <div class="button-card__img">
-                        <img src="assets/House Example 1.png" alt="">
-                    </div>
-                    <div class="button-card__title">
-                        <p>Vile</p>
-                    </div>
-                    <div class="button-card__properties">
-                        <div class="button-card__properties-bed">
-                            <img src="assets/Bed.svg" alt="bed">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-shower">
-                            <img src="assets/Shower.svg" alt="shower">
-                            <p>4</p>
-                        </div>
-                        <div class="button-card__properties-size">
-                            <img src="assets/Size.svg" alt="size">
-                            <p>4</p>
-                        </div>
-                    </div>
+                <div class="listings-tab">  
+                    <p>Shfletoni shpalljet</p>
+                    <img src="assets/Arrow Tellow.svg" alt="">
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
+    <section class="section-2">
+        <div class="container"> 
+            <div class="section-2__image">
+                <img src="assets/Content Image large.png" alt="Content Image Large">
+            </div>
+
+            <div class="section-2__headline">
+                <img src="/assets/gradient line.png" alt="" class="section-2__gradient-line">
+                <p class="section-2__headline__title-header">Ne ju mundesojme kalim te lehte ne fazen e re te jetes</p>
+                <p class="section-2__headline__title-body">Faqja jone eshte nje pasyqrim i besimit tone ne sherbimin ndaj klientti dhe ofrimin e nje eksperience te jashtezakonshme te pasurive te patundshme. Ajo qe ben kompanine tone zgjedhjen e preferuar per te gjithe eshte angazhimi i stafit tone teper-inovativ, i cili i siguron cdo klienti zgjidhje te leverdisshme ne cdo fushe te biznesit te pasurive te patundshme.  </p>
+            
+                <div class="section-2__headline-btn">
+                    <button> Sherbimet <img src="/assets/Arrow Tellow.svg" color alt=""></button>
+                </div>
+            </div> 
+        </div> 
+    </section>
+
+    <section class="section-3">
+        <div class="container">
+            <div class= "section-3__body">
+
+                <div class="section-3__body-title">
+                    <img src="/assets/gradient line.png" alt="" class="section-3__gradient-line">
+                    <h1>Gjeni nje vend te ri per te jetuar</h1>
+                </div>
+
+                <div class="section-3__search"> 
+                        <div class="select-wrap">
+                            <label for="looking-for">Kerko</label>
+                            <select name="looking-for" id="looking-for" class="select-looking-for">
+                                <option value="House">Shtepi</option>
+                                <option value="Flat">Apartament</option>
+                                <option value="Vila">Vile</option>
+                                <option value="Penthouse">Hotel</option>
+                            </select>
+                        </div> 
+
+                        <div class="select-wrap">
+                            <label for="location">Lokacioni</label>
+                            <select name="location" id="location" class="select-location">
+                                <option value="Prishtina">Prishtina</option>
+                                <option value="Gjilani">Gjilani</option>
+                                <option value="Prizren">Prizren</option>
+                                <option value="Mitrovicë">Mitrovicë</option>
+                                <option value="Gjakovë">Gjakovë</option>
+                                <option value="Pejë">Pejë</option>
+                                <option value="Suharekë">Suharekë</option>
+                                <option value="Ferizaj">Ferizaj</option>
+                                <option value="Deçan">Deçan</option>
+                                <option value="Vitina">Vitina</option>
+                                <option value="Istok">Istok</option>
+                                <option value="Shtime">Shtime</option>
+                                <option value="Podujeva">Podujeva</option>
+                                <option value="Dragash">Dragash</option>
+                                <option value="Vushtrri">Vushtrri</option>
+                                <option value="Orahovac">Orahovac</option>
+                                <option value="Llazicë">Llazicë</option>
+                                <option value="Leposaviq">Leposaviq</option>
+                                <option value="fusheKosove">Fushë Kosovë</option> 
+                            </select>
+                        </div> 
+
+                        <div class="select-wrap">
+                            <label for="price-range">Rangu i qmimit</label>
+                            <select name="price-range" id="price-range" class="select-price">
+                                <option value="1,000$ - 9,999">1,000€ - 9,999€</option>
+                                <option value="10,000$ - 19,999$">10,000€ - 19,999€</option>
+                                <option value="20,000$ - 49,999$">20,000€ - 49,999€</option>
+                                <option value="20,000$ - 49,999$">20,000€ - 49,999€</option>
+                                <option value="50,000$ or more.">50,000€ ose me shume.</option>
+                            </select>
+                        </div> 
+                </div>
+                <div class="section-3__card">
+
+                    <div class="section-3__button-card">
+                        <div class="button-card__img">
+                            <img src="assets/House Example 1.png" alt="">
+                        </div>
+                        <div class="button-card__title">
+                            <p>Vile</p>
+                        </div>
+                        <div class="button-card__properties">
+                            <div class="button-card__properties-bed">
+                                <img src="assets/Bed.svg" alt="bed" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-shower">
+                                <img src="assets/Shower.svg" alt="shower" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-size">
+                                <img src="assets/Size.svg" alt="size" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section-3__button-card">
+                        <div class="button-card__img">
+                            <img src="assets/House Example 2.png" alt="">
+                        </div>
+                        <div class="button-card__title">
+                            <p>Apartament</p>
+                        </div>
+                        <div class="button-card__properties">
+                            <div class="button-card__properties-bed">
+                                <img src="assets/Bed.svg" alt="bed" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-shower">
+                                <img src="assets/Shower.svg" alt="shower" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-size">
+                                <img src="assets/Size.svg" alt="size" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section-3__button-card">
+                        <div class="button-card__img">
+                            <img src="assets/House Example 3.png" alt="">
+                        </div>
+                        <div class="button-card__title">
+                            <p>Shtepi private</p>
+                        </div>
+                        <div class="button-card__properties">
+                            <div class="button-card__properties-bed">
+                                <img src="assets/Bed.svg" alt="bed" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-shower">
+                                <img src="assets/Shower.svg" alt="shower" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-size">
+                                <img src="assets/Size.svg" alt="size" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-3__button-card">
+                        <div class="button-card__img">
+                            <img src="assets/House Example 4.png" alt="">
+                        </div>
+                        <div class="button-card__title">
+                            <p>Hotel</p>
+                        </div>
+                        <div class="button-card__properties">
+                            <div class="button-card__properties-bed">
+                                <img src="assets/Bed.svg" alt="bed" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-shower">
+                                <img src="assets/Shower.svg" alt="shower" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-size">
+                                <img src="assets/Size.svg" alt="size" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-3__button-card">
+                        <div class="button-card__img">
+                            <img src="assets/House Example 5.png" alt="">
+                        </div>
+                        <div class="button-card__title">
+                            <p>Apartament</p>
+                        </div>
+                        <div class="button-card__properties">
+                            <div class="button-card__properties-bed">
+                                <img src="assets/Bed.svg" alt="bed" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-shower">
+                                <img src="assets/Shower.svg" alt="shower" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-size">
+                                <img src="assets/Size.svg" alt="size" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-3__button-card">
+                        <div class="button-card__img">
+                            <img src="assets/House Example 1.png" alt="">
+                        </div>
+                        <div class="button-card__title">
+                            <p>Vile</p>
+                        </div>
+                        <div class="button-card__properties">
+                            <div class="button-card__properties-bed">
+                                <img src="assets/Bed.svg" alt="bed" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-shower">
+                                <img src="assets/Shower.svg" alt="shower" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                            <div class="button-card__properties-size">
+                                <img src="assets/Size.svg" alt="size" class = "svg-white">
+                                <p>4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </body>
 </html>

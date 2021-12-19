@@ -1,6 +1,10 @@
 *{
     scroll-behavior:smooth;
 }
+
+.svg-white{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(106%) contrast(106%);
+}
 body{
     color: #161616;
     padding: 0;
@@ -13,24 +17,25 @@ body{
 h1{
     font-family: 'Raleway';
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: auto;
 }
 
-.section-1{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 3%;
-    background-image: url("../assets/Object.png");
-    background-repeat: no-repeat; 
-    background-size:cover;
+header{
+    position: absolute;
+    top: 25px;
+    width: 100%;
 }
 
 .container {
-    display: flex; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;  
-    color: #ffffff
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #ffffff;
 }
 
 .container__logo{
@@ -72,6 +77,17 @@ h1{
     cursor: pointer;
 }
 
+.section-1{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    background-image: url("../assets/Object.png");
+    background-repeat: no-repeat; 
+    background-size:cover;
+}
+
 .headline{
     padding-top: 3%;
 }
@@ -87,6 +103,7 @@ h1{
     font-weight: bold;
     font-size: 5rem;
     margin: auto;
+    padding: 15px 0;
 }
 
 .headline__title-body {
@@ -96,7 +113,7 @@ h1{
 
 .listings-tab{
     height: 120px;
-    margin-top: 13%;
+    margin-top: 80px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -106,9 +123,10 @@ h1{
 
 .listings-tab p {
     padding: 5px;
-    margin-left: 3%;
+    margin-left: 5%;
     font-size: 1.5rem;
     font-weight: bold;
+    color: #161616;
 }
 
 .listings-tab img {
@@ -120,18 +138,15 @@ h1{
     background:  url(/assets/white-background-1920x1080.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 10%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items:flex-start;
-    
+    margin-top: 50px;
 }
 
 .section-2__gradient-line{
-    padding-bottom: 5%;
+    padding-bottom: 20px;
     display: flex;
     justify-content: flex-start;
     width: 30%;
@@ -142,15 +157,16 @@ h1{
     flex-direction: column;
     justify-content:space-evenly;
     max-width: 40%; 
-    margin-right: 50px;
-    align-items: flex-start;
+    align-items: baseline;
 }
 
 .section-2__headline__title-header{
     display: flex;
+    color: #161616;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: auto;
+    padding-bottom: 20px;
     margin-left: 0;
 }
 
@@ -161,7 +177,7 @@ h1{
 .section-2__headline-btn {
     display: flex;
     padding-top: 5%;
-    justify-content: left;
+    justify-content: right;
     
 }
 
@@ -171,14 +187,12 @@ h1{
     font-size: 1.1rem;
     color: white;
     width: 200px;
-    height: 80px;
+    height: 70px;
     background: #161616;
     border-radius: 0px 18px 0px 0px;
     border: none;
     cursor: pointer;
     align-items: left;
-
-    margin-bottom: 100px;
 }
 
 .section-2__headline-btn img {
@@ -189,7 +203,8 @@ h1{
 .section-2__image{
     display: flex;
     justify-content: left;
-    size: 50%;
+    size: 25%;
+    margin-bottom: -200px;
 }
 
 .section-3 {
@@ -198,27 +213,40 @@ h1{
     background-size: cover;
 }
 .section-3__body{
-    padding-left: 10%;
-    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-3__body-title{
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;  
+}
+.section-3 h1 {
+    color: black;
 }
 
 .section-3__gradient-line {
-    padding-top: 15%;
+    padding-top: 20%;
 }
 
 .section-3__search {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center ;
     padding-top: 10%;
-    
+    color: black;
 }
 
 .select-wrap {
     display: flex;
+    width: 33%;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
+    align-items: r;
     padding: 1px;
 }
   .select-wrap label{
@@ -230,9 +258,8 @@ h1{
   
 select{
     display: flex;
-    width: 500px;
-    text-align: center;
-    align-items: center;
+    width: 100%;
+    text-indent: 30px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 1.5rem;
@@ -256,6 +283,7 @@ select{
 }
 
 .section-3__card{
+    color:#161616;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -286,12 +314,15 @@ select{
 }
 .button-card__title p{
     font-family: 'Raleway';
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.8rem;
+    margin: 20px;
 }
 
 .button-card__properties{
     display: flex;
+    background-color: #FFAC12;
+    color: white;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -303,31 +334,25 @@ select{
     flex-direction: row;
     justify-content: center;
     width: 33%;
-    border: #e0e0e0;
-    border-width: 0.1px;
+
+    border-right-width: 0.1px;
     border-style: solid;
-    padding: 10px;
-    margin: -1px;
+    padding: 7px 0;
 }
 .button-card__properties-shower{
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 33%;
-    border: #e0e0e0;
-    border-width: 0.1px;
-    border-style: solid;
-    padding: 10px;
-    margin: -1px;
+
 }
 .button-card__properties-size{
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 33%;
-    border: #e0e0e0;
-    border-width: 0.1px;
+
+    border-left-width: 0.1px;
     border-style: solid;
-    padding: 10px;
-    margin: -1px;
+    padding: 7px 0;
 }
