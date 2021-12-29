@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/register_form.css">
+    <link rel="stylesheet" href="css/login.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="js/registration-form-validation.js"></script>
-    <title>Register</title>
+    <title>login</title>
 </head>
 <body onload="document.registration.userid.focus();">
 
@@ -27,32 +29,34 @@
                     <li><a href='about-us.html'>Rreth Nesh</a></li>
                 </ul>
                 <div class="container__btn">
-                    <button><a href='#'> Llogaria</a> <img src="assets/Arrow White.svg" color alt=""></button>
+                    <button><a href='LoginForm.html'> Llogaria</a> <img src="assets/Arrow White.svg" color alt=""></button>
                 </div>
             </div>  
         </nav>
     </header>
 
-    <section class="register__section-1">
-        <div class="register__section-1__container">
+    <section class="login__section-1">
+        <div class="login__section-1__container">
             
+            <img src="assets/login/login-house.png" alt="">
 
-            <div class="register__section-1__title">
-                <h1>Regjistrojuni</h1>
+            <div class="login__section-1__title">
+                <h1>Regjistrohuni</h1>
             </div>
             
-            <div class="register__section-1__form">
+            <div class="login__section-1__form">
                 <form name='registration' onSubmit="return formValidation();">
                     <ul>
-                        <li><label for="email">Emaili:</label></li>
-                        <li><input type="text" name="email" size="50" /></li>
+                        <li><label for="userid">Perdorues:</label></li>
+                        <li><input type="text" name="userid" size="12" /></li>
                         <li><label for="passid">Passwordi:</label></li>
                         <li><input type="password" name="passid" size="12" /></li>
-
-                        <li><input type="submit" name="submit" value="Hyr" /></li>
+                        <li><input type="submit" name="submit" value="Submit" /></li>
                     </ul>
                 </form>
             </div>
+            <br>
+            <p>Nuk keni llogari? <a href="RegisterForm.html"> Regjistrohuni ketu!</a></p>
         </div>
     </section>
 
