@@ -1,0 +1,48 @@
+header{
+    background: #161616;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.register__section-1__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #161616;
+}
+
+.register__section-1__title{
+    justify-content: flex-start;
+    margin: 100px 0;
+}
+.register__section-1__form{
+    display: flex;
+}
+
+form ul li label{
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    }
+    
+form ul li input, select, span {
+    margin: 10px 0 20px 0;
+    width:300px;
+    }
+
+form input[type=radio] {
+    margin: 10px 10px 20px 10px;
+    width: 10px;
+}
+
+form input[type=checkbox] {
+    margin: 10px 10px 20px 10px;
+    width: 10px;
+}
+    
+    
