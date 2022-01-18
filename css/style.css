@@ -656,6 +656,7 @@ and (max-width : 650px) {
         max-width: 80%;
         justify-content: center;
         align-items: center;
+
     }
     .section-2__headline__title-header{
         font-size: 2rem;
@@ -673,6 +674,31 @@ and (max-width : 650px) {
 
     .section-3{
         
+    }
+
+    .section-3__body-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .section-3__gradient-line{
+        padding-bottom: 20px;
+        width: 60%;
+    }
+    .select-wrap{
+        width: 80%;
+        align-items: center;
+    }
+    .looking-for{
+        align-items: center;
+    }
+    .section-3 select {
+        text-align: center;
+        border-radius: 1.5rem;
+        width: 80%;
+        height: 80px;
+        text-indent: 0;
     }
     .section-4{
         display: none;
