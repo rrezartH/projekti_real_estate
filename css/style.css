@@ -107,6 +107,7 @@ nav{
     background-image: url("../assets/Object.png");
     background-repeat: no-repeat; 
     background-size:cover;
+    background-position: center;
 }
 
 .headline{
@@ -388,6 +389,10 @@ nav{
     margin-top: -250px;
 }
 
+.section-4 h2 {
+    margin: 0;
+}
+
 .section-4__container {
   align-items: center;
   display: inline;
@@ -574,3 +579,117 @@ nav{
   .footer__links ul{
     display: flex;  
   }
+
+  
+  
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 650px) {
+
+    .container{
+        justify-content: center;
+    }
+
+    nav{
+        justify-content: space-around !important;
+    }
+    .container__logo {
+        width: 30%;
+    }
+
+    .cards {
+        position: relative;
+        width: 300px;
+        height: 288px;
+        margin-bottom: 20px;
+      }
+
+      .cards img{
+        width: 330px;
+        height: 316.41px; 
+      }
+
+    .container__links{
+        display: none;
+    }
+
+    p, h1, h2, h3 {
+        text-align: center;
+    }
+
+    .headline__title{
+        max-width: none;
+        align-items: center;
+    }   
+    .headline__title-header{
+        font-size: 2rem;
+        margin-bottom: 20px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .headline__title-body{
+        font-size: 1rem;
+        width: 60%;
+    }
+
+    .listings-tab{
+        height: 90px;
+    }
+
+    .section-2{
+
+    }
+    .section-2 img {
+        width: 80%;
+        border-radius: 8%;
+    }
+    .section-2__image{
+        margin: 0;
+        justify-content: center;
+    }
+
+    .section-2__gradient-line{
+        width: 100% !important;
+    }
+
+    .section-2__headline{
+        max-width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-2__headline__title-header{
+        font-size: 2rem;
+    }
+    .section-2__headline__title-body{
+        display: none;
+    }
+
+    .section-2__headline button{
+        border-radius: 18px 18px 0px 0px ;
+    }
+    .section-2__headline-btn img{
+        width: 20%;
+    }
+
+    .section-3{
+        
+    }
+    .section-4{
+        display: none;
+    }
+    .section-5{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
