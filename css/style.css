@@ -596,19 +596,6 @@ and (max-width : 650px) {
     .container__logo {
         width: 30%;
     }
-
-    .cards {
-        position: relative;
-        width: 300px;
-        height: 288px;
-        margin-bottom: 20px;
-      }
-
-      .cards img{
-        width: 330px;
-        height: 316.41px; 
-      }
-
     .container__links{
         display: none;
     }
@@ -617,6 +604,7 @@ and (max-width : 650px) {
         text-align: center;
     }
 
+    
     .headline__title{
         max-width: none;
         align-items: center;
@@ -636,9 +624,6 @@ and (max-width : 650px) {
         height: 90px;
     }
 
-    .section-2{
-
-    }
     .section-2 img {
         width: 80%;
         border-radius: 8%;
@@ -672,15 +657,16 @@ and (max-width : 650px) {
         width: 20%;
     }
 
-    .section-3{
-        
-    }
 
     .section-3__body-title{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 90%;
+    }
+    .section-3__card{
+        justify-content: center;
+        width: 100%;
     }
     .section-3__gradient-line{
         padding-bottom: 20px;
@@ -689,6 +675,9 @@ and (max-width : 650px) {
     .select-wrap{
         width: 80%;
         align-items: center;
+    }
+    .select-wrap label {
+        text-align: center;
     }
     .looking-for{
         align-items: center;
@@ -700,14 +689,77 @@ and (max-width : 650px) {
         height: 80px;
         text-indent: 0;
     }
-    .section-4{
-        display: none;
+
+    .button-card__img{
+        width: 100%;
     }
+
+
+    .section-4 h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+       
+    }
+    .section-4__container{
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    .section-4__container label {
+        overflow:hidden;
+    }
+
+    .cards {
+        position: relative;
+        width: 300px;
+        height: 288px;
+        margin-bottom: 20px;
+        
+      }
+      .card{
+          width: 80%;
+      }
+      .cards img {
+        width: 238px;
+        height: 230.41000000000003px;
+    }
+
     .section-5{
-        display: none;
+       
     }
-    footer{
-        display: none;
+    footer h1{
+       font-size: 2.8rem;
+       margin-bottom: 30px;
+    }
+
+    .footer__title{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .footer__container{
+        justify-content: center;
+    }
+
+    .footer__logos{
+        width: 100%;
+        align-items: center;
+    }
+    .footer__logos-mainlogo {
+        width: 50%;
+    }
+    .footer__logos-sm{
+        width: 40%;
+    }
+
+    .footer__links{
+        margin-bottom: 40px;
+    }
+
+    .footer__links ul{
+        flex-direction:column;
+        align-items: center;
     }
 
 }
