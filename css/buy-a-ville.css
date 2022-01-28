@@ -1,0 +1,41 @@
+header{
+    background-color: #161616;
+    position: relative;
+}
+
+.container{
+    color: #161616;
+}
+
+.villa-welcome{
+    background-image: url("../assets/villa-majestica/villa-la-gi-thumbnail.jpg");
+    background-repeat:no-repeat; 
+    background-size:100%;
+    background-position: center;
+}
+
+.villa-welcome h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+    padding: 15% 0%;
+    text-shadow: 0px 0px 15px #161616;
+    max-width: 80%;
+}
+
+.majestica-desc h1{
+    text-align: center;
+    padding: 40px 0px;
+    font-weight: lighter;
+}
+
+.majestica-desc h3 {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.majestica-desc .container{
+    justify-content: center;
+    align-items: center;
+}
